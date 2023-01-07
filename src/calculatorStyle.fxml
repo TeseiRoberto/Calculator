@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myPackage.GuiController">
+   <children>
+      <Button fx:id="btn7" layoutX="14.0" layoutY="107.0" mnemonicParsing="false" onAction="#btn7Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="7" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="83.0" layoutY="106.0" mnemonicParsing="false" onAction="#btn8Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="8" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="150.0" layoutY="107.0" mnemonicParsing="false" onAction="#btn9Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="9" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="14.0" layoutY="176.0" mnemonicParsing="false" onAction="#btn4Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="4" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="14.0" layoutY="246.0" mnemonicParsing="false" onAction="#btn1Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="83.0" layoutY="175.0" mnemonicParsing="false" onAction="#btn5Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="5" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="150.0" layoutY="176.0" mnemonicParsing="false" onAction="#btn6Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="6" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="83.0" layoutY="245.0" mnemonicParsing="false" onAction="#btn2Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="2" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="150.0" layoutY="246.0" mnemonicParsing="false" onAction="#btn3Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="14.0" layoutY="319.0" mnemonicParsing="false" onAction="#btn0Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSum" layoutX="226.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnSumPressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSub" layoutX="226.0" layoutY="176.0" mnemonicParsing="false" onAction="#btnSubPressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMul" layoutX="226.0" layoutY="246.0" mnemonicParsing="false" onAction="#btnMulPressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="*" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDiv" layoutX="226.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnDivPressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="/" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEqual" layoutX="150.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnEqualPressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="=" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text fx:id="resultField" fill="WHITE" layoutX="21.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" wrappingWidth="258.39519119262695">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
