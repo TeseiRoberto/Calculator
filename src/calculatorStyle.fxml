@@ -5,7 +5,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myPackage.GuiController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myPackage.calculator.GuiController">
    <children>
       <Button fx:id="btn7" layoutX="14.0" layoutY="107.0" mnemonicParsing="false" onAction="#btn7Pressed" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #282929; -fx-border-color: #ffffff; -fx-border-radius: 14; -fx-background-radius: 14;" text="7" textAlignment="CENTER" textFill="WHITE">
          <font>
