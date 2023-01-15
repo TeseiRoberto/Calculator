@@ -1,5 +1,5 @@
 
-package com.myPackage;
+package com.myPackage.calculator;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -13,7 +13,6 @@ public class Main extends Application
 	{
 		launch(argv);
 	}
-
 
 	// Called when application starts
 	@Override
